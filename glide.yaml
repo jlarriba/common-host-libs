@@ -1,4 +1,4 @@
-package: github.com/hpe-storage/common-host-libs
+package: github.com/jlarriba/common-host-libs
 ignore:
 - go.etcd.io/etcd
 import:

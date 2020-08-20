@@ -1,5 +1,5 @@
-hash: b18ebaccee40b1a1e05c75c5df460e20a61c24b6ceaad605e0cd22b4be125a15
-updated: 2020-05-07T09:04:53.741686-07:00
+hash: cda5e4f7643ba1d17e1e22471ee49edbbe25534f06fab2228323f66e8033746b
+updated: 2020-08-17T15:34:44.385947464+02:00
 imports:
 - name: github.com/coreos/etcd
   version: 98d308426819d892e149fe45f6fd542464cb1f9d
@@ -39,6 +39,46 @@ imports:
   version: dfeb47f3e2ef7e235d6cc6f42514a37b9767e41d
   subpackages:
   - api
+- name: github.com/hpe-storage/common-host-libs
+  version: d8ace7347c9b92c03fcb818dac5cfee17f58972d
+  subpackages:
+  - cert
+  - chapi
+  - chapi2
+  - chapi2/cerrors
+  - chapi2/driver
+  - chapi2/fc
+  - chapi2/handler
+  - chapi2/host
+  - chapi2/iscsi
+  - chapi2/model
+  - chapi2/mount
+  - chapi2/multipath
+  - chapi2/virtualdevice
+  - concurrent
+  - connectivity
+  - docker/dockerlt
+  - dockerplugin/handler
+  - dockerplugin/plugin
+  - dockerplugin/provider
+  - jconfig
+  - jsonutil
+  - linux
+  - logger
+  - model
+  - mpathconfig
+  - sgio
+  - storageprovider
+  - stringformat
+  - tunelinux
+  - util
+  - windows
+  - windows/advapi32
+  - windows/ioctl
+  - windows/iscsidsc
+  - windows/powershell
+  - windows/shlwapi
+  - windows/wmi
 - name: github.com/kardianos/service
   version: 56787a3ea05e9b262708192e7ce3b500aba73561
 - name: github.com/konsorten/go-windows-terminal-sequences
@@ -148,8 +188,8 @@ testImports:
   subpackages:
   - difflib
 - name: github.com/stretchr/testify
-  version: 15aff29f35e9a60566cc995c2c8b7452a758c443
+  version: cf221cc87575662898cb4f892b8d67875077be50
   subpackages:
   - assert
 - name: gopkg.in/yaml.v3
-  version: 2ff61e1afc866138abf1a8adf3cc89721090ac31
+  version: eeeca48fe7764f320e4870d231902bf9c1be2c08
